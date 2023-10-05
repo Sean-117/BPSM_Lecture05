@@ -1,0 +1,6 @@
+while read name email city birthday_day birthday_month birthday_year country
+do
+ if[[test -z ${name}]||[test ${country}=="country"]
+  then echo -e "$((++count))\t${country}"
+ fi
+done < epd

@@ -1,0 +1,3 @@
+P1:
+while read name email city birthday_day birthday_month birthday_year country; do echo -e 1t; done < epd
+
